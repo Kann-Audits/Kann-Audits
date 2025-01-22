@@ -1,6 +1,6 @@
 # Kann Audits | Smart Contract Security Audits
 
-Book an audit: [Telegram @KannAudits](https://t.me/@KannAudits)
+Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
 Looking for top-tier audits with precision and reliability? We’ve got you covered!
 
