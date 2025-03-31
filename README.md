@@ -13,6 +13,6 @@ Kann Audits specializes in providing confidential and thorough audits for Web3 s
 | Protocol| Type | Report Link  | Date |
 |-------|-----|----------|-------------|
 | RWA |  Borrowing and Lending | [RWA](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/RWASucks.pdf)      |     January 2025        |
-| PIP | DeFi privacy mixer | Soon | March 2025
+| PIP | DeFi privacy mixer | [Pulse In Private]https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/PIP.pdf | March 2025
 
 
