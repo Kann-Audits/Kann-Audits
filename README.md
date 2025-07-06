@@ -11,6 +11,7 @@ Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
 | Protocol| Type | Report Link  | Date |
 |-------|-----|----------|-------------|
+| CroVegas | Lottery |[PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/CroVegas.pdf) | July 2025
 | Wild Protocol | Launchpad | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Wild%20Protocol.pdf) | June 2025
 | Mystic Finance 2| RWA| [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance_v2.pdf) | June 2025
 | Mystic Finance | RWA | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance.pdf) | June 2025 
