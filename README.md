@@ -1,4 +1,4 @@
-# Kann Audits | Smart Contract Security Audits
+# Kann Audits | Solidity, Rust, Move, Go, Circom & ZK Security Audits
 
 Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
@@ -7,7 +7,9 @@ Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
 --------------------------------------
 
-**<h3>Private Smart Contract Security Reviews</h3>**
+**<h3>Public Security Audits: [Portfolio](https://audits.sherlock.xyz/watson/KannAudits)</h3>**
+
+**<h3>Private Security Audits:</h3>**
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
