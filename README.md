@@ -13,6 +13,7 @@ Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
+| Encifher | Privacy Bridging | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Encifher-security-review-2026-02-13.pdf) | February 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2025-12-09.pdf) | December 2025 |
 | Gluon | Yield Aggregation | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Gluon-security-review_2025-09-20.pdf) | September 2025 |
 | Manifest Finance   | RWA              | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/ManifestFinance-security-review_2025-08-26.pdf) | August 2025 |
