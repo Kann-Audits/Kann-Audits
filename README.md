@@ -1,8 +1,8 @@
-# Kann Audits | Solidity, Rust, Move, Go, Circom & ZK Security Audits
+# Kann Audits | Solidity, Rust, Move, Go, Circom, ZK, Infra(off-chain) Security Audits
 
-Book an audit: [Telegram @KannAudits](https://t.me/kannaudits)
+https://kannaudits.com/
 
-**Looking for top-tier audits with precision and reliability? We’ve got you covered!**
+Reach out to: [Telegram @KannAudits](https://t.me/kannaudits)
 
 
 --------------------------------------
