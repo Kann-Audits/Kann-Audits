@@ -1,4 +1,4 @@
-# Kann Audits | Solidity, Rust, Move, Go, Circom, ZK, Infra(off-chain) Security Audits
+# KannAudits | Solidity, Rust, Move, Go, Circom, ZK, Infra(off-chain) Security Audits
 
 https://kannaudits.com/
 
