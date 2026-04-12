@@ -13,6 +13,8 @@ Reach out to: [Telegram @KannAudits](https://t.me/kannaudits)
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
+| APTree | Yield Aggregator | SOON | April 2026 |
+| HyperLend | Leveraged Lending | SOON | April 2026 |
 | Mystic Finance | DEX | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2026-02-13.pdf) | February 2026 |
 | Encifher | Privacy Bridging | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Encifher-security-review-2026-02-13.pdf) | February 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2025-12-09.pdf) | December 2025 |
