@@ -13,7 +13,7 @@ Reach out to: [Telegram @KannAudits](https://t.me/kannaudits)
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
-| Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche_security-review-2026-05-03.pdf) | April 2026 |
+| Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf) | April 2026 |
 | castr.fun | Token Launchpad | SOON | April 2026 |
 | APTree | Yield Aggregator | SOON | April 2026 |
 | HyperLend | Leveraged Lending | SOON | April 2026 |
