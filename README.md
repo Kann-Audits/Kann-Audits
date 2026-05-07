@@ -13,14 +13,15 @@ Reach out to: [Telegram @KannAudits](https://t.me/kannaudits)
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
-| Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf) | April 2026 |
+| Mystic Finance | Liquid Staking | SOON | May 2026 |
+| Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf) | May 2026 |
 | castr.fun | Token Launchpad | SOON | April 2026 |
 | APTree | Yield Aggregator | SOON | April 2026 |
 | HyperLend | Leveraged Lending | SOON | April 2026 |
 | Mystic Finance | DEX | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2026-02-13.pdf) | February 2026 |
 | Encifher | Privacy Bridging | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Encifher-security-review-2026-02-13.pdf) | February 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2025-12-09.pdf) | December 2025 |
-| Gluon | Yield Aggregation | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Gluon-security-review_2025-09-20.pdf) | September 2025 |
+| Gluon | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Gluon-security-review_2025-09-20.pdf) | September 2025 |
 | Manifest Finance   | RWA              | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/ManifestFinance-security-review_2025-08-26.pdf) | August 2025 |
 | Wild Protocol      | Launchpad        | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Wild%20Protocol.pdf)  | June 2025   |
 | Mystic Finance   | RWA              | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance_v2.pdf) | June 2025   |
