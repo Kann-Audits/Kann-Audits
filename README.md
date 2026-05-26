@@ -17,7 +17,7 @@ Reach out to our Founder for a security audit: [Telegram @KannAudits](https://t.
 | Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf) | May 2026 |
 | castr.fun | Token Launchpad | SOON | April 2026 |
 | APTree | Yield Aggregator | SOON | April 2026 |
-| HyperLend | Leveraged Lending | https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/HyperLend-security-review-2026-05-26.pdf | April 2026 |
+| HyperLend | Leveraged Lending | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/HyperLend-security-review-2026-05-26.pdf) | April 2026 |
 | Mystic Finance | DEX | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2026-02-13.pdf) | February 2026 |
 | Encifher | Privacy Bridging | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Encifher-security-review-2026-02-13.pdf) | February 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2025-12-09.pdf) | December 2025 |
