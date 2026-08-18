@@ -13,7 +13,7 @@ Reach out to our Founder for a security audit: [Telegram @KannAudits](https://t.
 
 | Protocol           | Type             | Report Link                                                                                         | Date        |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
-| ZKONEN | Tokenomics | SOON | August 2026 |
+| IZKONEN | Tokenomics | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/IZKONEN-security-review-2026-08-18.pdf) | August 2026 |
 | N4A | BB program | SOON | July 2026 |
 | Fluton | Privacy Lending | SOON | June 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2026-05-11.pdf) | May 2026 |
