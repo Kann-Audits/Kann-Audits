@@ -15,7 +15,7 @@ Reach out to our Founder for a security audit: [Telegram @KannAudits](https://t.
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------|-------------|
 | IZKONEN | Tokenomics | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/IZKONEN-security-review-2026-08-18.pdf) | August 2026 |
 | N4A | BB program | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/N4A-security-review-2026-08-18.pdf) | July 2026 |
-| Fluton | Privacy Lending | SOON | June 2026 |
+| Fluton | Privacy Lending | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Fluton-security-review-2026-08-20.pdf) | June 2026 |
 | Mystic Finance | Liquid Staking | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/MysticFinance-security-review-2026-05-11.pdf) | May 2026 |
 | Arche | Yield Aggregator | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf) | May 2026 |
 | castr.fun | Token Launchpad | [PDF](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Castr.fun-review-2026-08-13.pdf) | April 2026 |
