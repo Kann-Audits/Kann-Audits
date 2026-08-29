@@ -1,8 +1,10 @@
-# Kann Audits | Solidity, Rust, Move, Go, Circom, ZK, Infra(off-chain) Security Audits
+Kann Audits | Web3 Security Audits
 
-www.kannaudits.com
+Solidity • Rust • Move • Go • Circom • ZK • Off-Chain Infrastructure
 
-Reach out to our Founder for a security audit: [Telegram @KannAudits](https://t.me/kannaudits)
+[Learn about Kann Audits' Expert Smart Contract Security Audits](https://kannaudits.com)
+
+Reach out for a security audit: [Telegram @KannAudits](https://t.me/kannaudits)
 
 
 --------------------------------------
