@@ -6,11 +6,8 @@ Critical
 
 ## Description
 
-The StakedUSH vault is vulnerable to zero share deposits when USH tokens are sent directly to the contract.
-Because the vault calculates shares based on totalSupply and totalAssets, a direct token transfer increases totalAssets without increasing totalSupply.
-As a result, legitimate depositor will receive 0 shares for a positive deposit, breaking fair share distribution and potentially locking user funds.
+The StakedUSH vault is vulnerable to zero share deposits when USH tokens are sent directly to the contract. Because the vault calculates shares based on totalSupply and totalAssets, a direct token transfer increases totalAssets without increasing totalSupply. As a result, legitimate depositor will receive 0 shares for a positive deposit, breaking fair share distribution and potentially locking user funds.
 
-Root Cause:
 The sUSH vault calculates shares using the formula:
 
 shares = (assets * (totalSupply + decimalsOffset)) / (totalAssets + 1)
@@ -35,47 +32,46 @@ High
 
 ## Description
 
-The deposit flow does not fully enforce the FULL_RESTRICTED_STAKER_ROLE check.
-When a user with FULL restriction calls deposit(assets, receiver), the restriction logic fails to prevent the operation, allowing restricted users to bypass intended compliance rules.
+The deposit flow does not fully enforce the FULL_RESTRICTED_STAKER_ROLE check. When a user with FULL restriction calls deposit(assets, receiver), the restriction logic fails to prevent the operation, allowing restricted users to bypass intended compliance rules.
 
-Deposit flow:
-deposit(ERC4626 logic) -> _deposit(override) where checks if both addresses have SOFT_RESTRICTED_STAKER_ROLE if true reverts
-then logic goes to _deposit(ERC4626)
+Deposit flow: deposit(ERC4626 logic) -> _deposit(override) where checks if both addresses have SOFT_RESTRICTED_STAKER_ROLE if true reverts then logic goes to _deposit(ERC4626)
 
 ```solidity
- function _deposit(address caller, address receiver, uint256 assets, uint256 shares) internal virtual {  
-        
-        SafeERC20.safeTransferFrom(IERC20(asset()), caller, address(this), assets);  
-        _mint(receiver, shares);  
-  
-        emit Deposit(caller, receiver, assets, shares);  
-    }  
+function _deposit(address caller, address receiver, uint256 assets, uint256 shares)
+     internal virtual {
+
+       SafeERC20.safeTransferFrom(IERC20(asset()), caller, address(this), assets);
+       _mint(receiver, shares);
+
+       emit Deposit(caller, receiver, assets, shares);
+   }
 ```
 
 Where _mint is called.
 
 ```solidity
-function _mint(address account, uint256 value) internal {  
-        if (account == address(0)) {  
-            revert ERC20InvalidReceiver(address(0));  
-        }  
-        _update(address(0), account, value);  
-    }  
+function _mint(address account, uint256 value) internal {
+        if (account == address(0)) {
+            revert ERC20InvalidReceiver(address(0));
+        }
+        _update(address(0), account, value);
+    }
 ```
+
 See how _mint sets first parameter for _update to be address 0.
 
 and since we have _update override it goes to
 
 ```solidity
- function _update(address from, address to, uint256 value) internal override {  
-        if (hasRole(FULL_RESTRICTED_STAKER_ROLE, from) && to != address(0)) {  
-            revert OperationNotAllowed();  
-        }  
-        if (hasRole(FULL_RESTRICTED_STAKER_ROLE, to)) {  
-            revert OperationNotAllowed();  
-        }  
-        super._update(from, to, value);  
-    }  
+function _update(address from, address to, uint256 value) internal override {
+       if (hasRole(FULL_RESTRICTED_STAKER_ROLE, from) && to != address(0)) {
+           revert OperationNotAllowed();
+       }
+       if (hasRole(FULL_RESTRICTED_STAKER_ROLE, to)) {
+           revert OperationNotAllowed();
+       }
+       super._update(from, to, value);
+   }
 ```
 
 Where it fails to check if the msg.sender is restricted role
@@ -152,7 +148,7 @@ Fixed.
 
 ## Severity
 
-Low
+Informational
 
 ## Description
 
@@ -167,6 +163,7 @@ function chainalysisOracleEnabled() public view returns (bool) {
     return KycManagerStorageLib.getV1().chainalysisOracle != address(0);
 }
 ```
+
 ## Team Response
 
 Fixed.

@@ -12,12 +12,11 @@ Without calling setTokenParams(), fees earned from the pool become unclaimable, 
 
 In contrast, the graduateToken() function does invoke lpLocker.setTokenParams(), meaning fee claiming only works when using that path. This makes the launchV4Pool() function incomplete and effectively useless for real-world deployments where fees matter.
 
-
 ## Team Response
 
 Fixed.
 
-# [M-01] Bonding Curve Check  stepsize * numSteps May Not Match curveSupply
+# [M-01] Bonding Curve Check stepsize * numSteps May Not Match curveSupply
 
 ## Severity
 
@@ -33,12 +32,11 @@ If stepsize * numSteps < curveSupply, part of the curve supply will become unrea
 
 While this behavior may be intentional to allow flexible bonding curve shapes, without an explicit check or warning, it can lead to unintended launch behavior due to misconfiguration.
 
-
 ## Team Response
 
 Fixed.
 
-# [M-02] Incorrect ETH Transfer to State Manager — Full msg.value Sent Instead of Used Amount
+# [M-02] Incorrect ETH Transfer to State Manager - Full msg.value Sent Instead of Used Amount
 
 ## Severity
 
@@ -49,7 +47,6 @@ Medium
 When a user purchases a launch token using ETH (base token), the acceptAmount() function correctly calculates the amount used (amountInUsed) and refunds the excess ETH back to the user. However, despite the refund, the entire msg.value is still forwarded to the StateManager.buyToken() call, rather than just the used portion.
 
 This results in the StateManager contract receiving more ETH than it should, creating incorrect accounting and potential fund mismanagement.
-
 
 ## Team Response
 
@@ -71,7 +68,7 @@ In contrast, when using ETH as the base token, any overpayment is explicitly ref
 
 Fixed.
 
-# [M-04] ERC20 Transfer — Not All Tokens Return Boolean
+# [M-04] ERC20 Transfer - Not All Tokens Return Boolean
 
 ## Severity
 
@@ -85,7 +82,7 @@ Uses ERC20(token).transfer(...) and checks whether it returns true to confirm su
 
 Fixed.
 
-# [L-01] LP Fees Unclaimable via launchV4Pool()
+# [L-01] Forced Graduation Flag Ignored
 
 ## Severity
 
@@ -99,7 +96,7 @@ Although the deployer can set allowForcedGraduation to false, graduateToken() an
 
 Fixed.
 
-# [I-01] Missing Validation — numSteps and prices.length Mismatch
+# [I-01] Missing Validation - numSteps and prices.length Mismatch
 
 ## Severity
 

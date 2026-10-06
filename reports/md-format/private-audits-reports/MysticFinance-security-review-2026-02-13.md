@@ -1,4 +1,4 @@
-# [Low-01] Incorrect Constructor Arguments Used in ZeroExOptimized Verification
+# [L-01] Incorrect Constructor Arguments Used in ZeroExOptimized Verification
 
 ## Severity
 
@@ -8,30 +8,36 @@ Low
 
 In the deployment script, the `ZeroExOptimized` contract is deployed using the bootstrapper address obtained from `fullMigration.getBootstrapper()`.
 
-```javascript
- const zeroExOptimized = await deployContract(ZeroExOptimizedFactory, [await fullMigration.getBootstrapper()]);
-    console.log("ZeroExOptimized deployed to:", zeroExOptimized.address);
+```ts
+const zeroExOptimized = await deployContract(ZeroExOptimizedFactory, [await
+    fullMigration.getBootstrapper()]);
+console.log("ZeroExOptimized deployed to:", zeroExOptimized.address);
 ```
 
 However, during the verification step, the script incorrectly uses the `FullMigration` contract address as the constructor argument.
 
-```javascript
-await verifyContract(hre, deploymentResults.contracts.ZeroExOptimized, [deploymentResults.contracts.FullMigration]);
+```ts
+await verifyContract(hre, deploymentResults.contracts.ZeroExOptimized, [
+    deploymentResults.contracts.FullMigration]);
 ```
 
 This mismatch causes verification failures because the constructor arguments provided to the verification function do not match those used during deployment.
 
-## Root cause:
+## Root cause
 
-The verification logic does not account for the actual constructor parameter used when deploying `ZeroExOptimized`.
-Instead of using the bootstrapper address returned by `fullMigration.getBootstrapper()`, it mistakenly uses `fullMigration.address`, resulting in incorrect verification data.
+The verification logic does not account for the actual constructor parameter used when deploying `ZeroExOptimized`. Instead of using the bootstrapper address returned by `fullMigration.getBootstrapper()`, it mistakenly uses `fullMigration.address`, resulting in incorrect verification data.
 
-## Recommendation:
+## Recommendation
 
 Pass bootstrapper as the constructor argument during verification.
 
-```javascript
-const bootstrapper = await fullMigration.getBootstrapper();
+```ts
+ const bootstrapper = await fullMigration.getBootstrapper();
 deploymentResults.bootstrapper = bootstrapper;
-await verifyContract(hre, deploymentResults.contracts.ZeroExOptimized, [deploymentResults.bootstrapper])
+await verifyContract(hre, deploymentResults.contracts.ZeroExOptimized, [
+    deploymentResults.bootstrapper])
 ```
+
+## Team Response
+
+Fixed.

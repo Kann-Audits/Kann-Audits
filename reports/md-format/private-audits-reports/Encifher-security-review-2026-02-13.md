@@ -8,90 +8,94 @@ Medium
 
 Slippage values are calculated and displayed to users but never enforced during swap execution, leading to potential silent losses and misleading quotes.
 
-Code Example:
+## Code Example
 
 ```ts
 // Quote calculation
 slippageLegOne: jupQuote.slippageBps,
-slippageLegTwo: 50,
+slippgageLegTwo: 50,
 
-// Swap execution – missing slippageBps
+// Swap execution - missing slippageBps
 orderUrl.searchParams.set("inputMint", inputMint);
 orderUrl.searchParams.set("outputMint", outputMint);
 orderUrl.searchParams.set("amount", amount);
 ```
 
-## Impact:
+## Impact
 
-Users may receive significantly less than quoted amounts. Silent failures may occur with no warning to users. Misleading quotes could harm user trust.
+- Users may receive significantly less than quoted amounts
+- Silent failures with no warning to users
+- Misleading quotes could harm user trust
 
-## Recommendation:
+## Recommendation
 
-Pass slippageBps to Jupiter API.
+- Pass `slippageBps` to Jupiter API:
 
+```ts
 orderUrl.searchParams.set("slippageBps", slippageLegOne.toString());
+```
 
+- Implement post-execution validation:
 
-Implement post-execution validation.
-
+```ts
 const actualOutput = await getTransactionOutput(signature);
 if (BigInt(actualOutput) < BigInt(orderData.otherAmountThreshold)) {
-    throw new Error("Slippage exceeded: expected, got less");
+    throw new Error(`Slippage exceeded: expected , got `);
 }
+```
 
 ## Team Response
 
 Fixed.
 
 # [M-02] Kafka Consumer Retry Mechanism
+
 ## Severity
 
 Medium
 
 ## Description
 
-A single shared Kafka consumer instance (kafkaConsumer) across three consumers prevents proper error recovery, causing retries to fail and manual restarts to be required.
+Single shared Kafka consumer instance (`kafkaConsumer`) across three consumers prevents proper error recovery, causing retries to fail and manual restarts to be required.
 
-Code Example:
+## Code Example
 
+```ts
 // Shared consumer
 export const kafkaConsumer = kafka.consumer({
-    groupId: "consumer-group",
-    sessionTimeout: 120 * 1000,
-    heartbeatInterval: 10000,
+  groupId: "consumer-group",
+  sessionTimeout: 120 * 1000,
+  heartbeatInterval: 10000,
 });
-
 // All three consumers call kafkaConsumer.run() independently
+```
 
+## Impact
 
-## Impact:
+- Failed consumers cannot recover automatically
+- Retry mechanism fails repeatedly every 500ms
+- Reduced system availability and reliability
 
-Failed consumers cannot recover automatically. The retry mechanism fails repeatedly every 500ms. System availability and reliability are reduced.
+## Recommendation
 
-## Recommendation:
+- Option 1 (recommended): Create separate consumer instances:
 
-Option 1 (recommended) is to create separate consumer instances.
+```ts
+export const preDepositConsumer = kafka.consumer({ groupId: "predeposit-consumer-
+    group" });
+export const postDepositConsumer = kafka.consumer({ groupId: "postdeposit-consumer-
+    group" });
+export const solverConsumer = kafka.consumer({ groupId: "solver-consumer-group" });
+```
 
-export const preDepositConsumer = kafka.consumer({
-    groupId: "predeposit-consumer-group",
-});
-
-export const postDepositConsumer = kafka.consumer({
-    groupId: "postdeposit-consumer-group",
-});
-
-export const solverConsumer = kafka.consumer({
-    groupId: "solver-consumer-group",
-});
-
-
-Option 2 is to use Promise.allSettled() instead of Promise.all() to handle failures without retrying the entire group.
+- Option 2: Use `Promise.allSettled()` instead of `Promise.all()` to handle failures without retrying entire group.
 
 ## Team Response
 
 Fixed.
 
-# [I-01] Kafka Missing SSL/TLS Encryption and No Authentication
+# [I-01] Kafka missing SSL/TLS encryption and no auth
+
 ## Severity
 
 Informational
@@ -100,59 +104,65 @@ Informational
 
 All Kafka connections operate without SSL/TLS encryption and lack authentication mechanisms.
 
-Code Example:
+## Code Example
 
+```ts
 // Kafka server and consumer configuration
 // No SSL/TLS or SASL auth enabled
+```
 
+## Impact
 
-## Impact:
+- All messages transmitted in plaintext
+- Wallet addresses, transaction IDs, and order details exposed to network eavesdropping
 
-All messages are transmitted in plaintext. Wallet addresses, transaction IDs, and order details are exposed to potential network eavesdropping.
+## Recommendation
 
-## Recommendation:
-
-Enable SSL/TLS encryption and implement SASL authentication for all Kafka connections.
+- Enable SSL/TLS encryption
+- Implement SASL authentication for all Kafka connections
 
 ## Team Response
 
 Fixed.
 
 # [I-02] Incomplete Balance Check in SolanaSolver
+
 ## Severity
 
 Informational
 
 ## Description
 
-The isSolvable() function performs an incomplete balance check and does not account for optional gas deposit transfers.
+`isSolvable()` function performs an incomplete balance check and does not account for optional gas deposit transfers.
 
-Code Example:
+## Code Example
 
+```ts
 async isSolvable(params: OrderParams): Promise<boolean> {
-    const balance = await this.getConnection().getBalance(
-        new PublicKey(currentPool)
-    );
+    const balance = await this.getConnection().getBalance(new PublicKey(currentPool)
+        );
     const requiredAmount = BigInt(params.amount); // Missing gas
     return BigInt(balance) >= requiredAmount;
 }
+```
 
+## Impact
 
-## Impact:
+- Orders marked as solvable may fail due to insufficient funds
+- User transactions fail after acceptance
+- Wasted RPC calls and fees
 
-Orders may be marked as solvable despite insufficient funds. Transactions can fail after acceptance, resulting in wasted RPC calls and fees.
+## Recommendation
 
-## Recommendation:
+Include gas deposit in balance validation:
 
-Include gas deposit in balance validation.
-
+```ts
 let requiredAmount = BigInt(params.amount);
-
 if (params.destinationGasDepositAddress) {
     requiredAmount += BigInt(DESTINATION_GAS_AMOUNT_LAMPORTS);
 }
-
 return availableBalance >= requiredAmount;
+```
 
 ## Team Response
 
