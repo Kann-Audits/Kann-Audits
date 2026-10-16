@@ -23,7 +23,7 @@
 <table>
   <tr>
     <td align="center" width="190"><h2>61</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
-    <td align="center" width="190"><h2>187</h2><sub>FINDINGS REPORTED</sub></td>
+    <td align="center" width="190"><h2>199</h2><sub>FINDINGS REPORTED</sub></td>
     <td align="center" width="190"><h2>350</h2><sub>VULNERABILITIES FOUND</sub></td>
   </tr>
 </table>
@@ -39,7 +39,7 @@
 <img src="https://img.shields.io/badge/L-2563eb?style=flat-square" alt="L"> Low &nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/I-667085?style=flat-square" alt="I"> Informational
 
-### 2026 &nbsp;·&nbsp; 9 reports
+### 2026 &nbsp;·&nbsp; 10 reports
 
 | Protocol | Type | Findings | Date | Report |
 |:--|:--|:--|:--|:--|
@@ -49,7 +49,7 @@
 | **Mystic Finance** | Liquid Staking | <img src="https://img.shields.io/badge/M_1-b54708?style=flat-square" alt="1 Medium"> <img src="https://img.shields.io/badge/L_2-2563eb?style=flat-square" alt="2 Low"> <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | May 2026 | <a href="reports/pdf-format/MysticFinance-security-review-2026-05-11.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/MysticFinance-security-review-2026-05-11.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Arche** | Yield Aggregator | <img src="https://img.shields.io/badge/No_issues_found-18744b?style=flat-square" alt="No issues found"> | May 2026 | <a href="reports/pdf-format/Arche-security-review-2026-05-03.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Arche-security-review-2026-05-03.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **castr.fun** | Token Launchpad | <img src="https://img.shields.io/badge/C_3-a3123a?style=flat-square" alt="3 Critical"> <img src="https://img.shields.io/badge/H_16-d92d20?style=flat-square" alt="16 High"> <img src="https://img.shields.io/badge/M_28-b54708?style=flat-square" alt="28 Medium"> <img src="https://img.shields.io/badge/L_31-2563eb?style=flat-square" alt="31 Low"> <img src="https://img.shields.io/badge/I_6-667085?style=flat-square" alt="6 Informational"> | April 2026 | <a href="reports/pdf-format/Castr.fun-review-2026-08-13.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Castr.fun-review-2026-08-13.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
-| **APTree** | Yield Aggregator | – | April 2026 | <img src="https://img.shields.io/badge/Report_coming_soon-8b8b99?style=flat-square" alt="Report coming soon"> |
+| **APTree** | Yield Aggregator | <img src="https://img.shields.io/badge/H_1-d92d20?style=flat-square" alt="1 High"> <img src="https://img.shields.io/badge/M_4-b54708?style=flat-square" alt="4 Medium"> <img src="https://img.shields.io/badge/L_1-2563eb?style=flat-square" alt="1 Low"> <img src="https://img.shields.io/badge/I_6-667085?style=flat-square" alt="6 Informational"> | April 2026 | <a href="reports/pdf-format/APTree-security-review-2026-04-13.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/APTree-security-review-2026-04-13.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **HyperLend** | Leveraged Lending | <img src="https://img.shields.io/badge/L_1-2563eb?style=flat-square" alt="1 Low"> <img src="https://img.shields.io/badge/I_4-667085?style=flat-square" alt="4 Informational"> | April 2026 | <a href="reports/pdf-format/HyperLend-security-review-2026-05-26.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/HyperLend-security-review-2026-05-26.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Mystic Finance** | DEX | <img src="https://img.shields.io/badge/L_1-2563eb?style=flat-square" alt="1 Low"> | February 2026 | <a href="reports/pdf-format/MysticFinance-security-review-2026-02-13.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/MysticFinance-security-review-2026-02-13.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Encifher** | Privacy Bridging | <img src="https://img.shields.io/badge/M_2-b54708?style=flat-square" alt="2 Medium"> <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | February 2026 | <a href="reports/pdf-format/Encifher-security-review-2026-02-13.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Encifher-security-review-2026-02-13.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
@@ -75,19 +75,19 @@
 
 | <img src="https://img.shields.io/badge/Critical-a3123a?style=flat-square" alt="Critical"> | <img src="https://img.shields.io/badge/High-d92d20?style=flat-square" alt="High"> | <img src="https://img.shields.io/badge/Medium-b54708?style=flat-square" alt="Medium"> | <img src="https://img.shields.io/badge/Low-2563eb?style=flat-square" alt="Low"> | <img src="https://img.shields.io/badge/Informational-667085?style=flat-square" alt="Informational"> |
 |:-:|:-:|:-:|:-:|:-:|
-| **9** | **31** | **57** | **47** | **43** |
+| **9** | **32** | **61** | **48** | **49** |
 
 </div>
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"pie1": "#a3123a", "pie2": "#d92d20", "pie3": "#b54708", "pie4": "#2563eb", "pie5": "#667085", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "15px", "pieTitleTextColor": "#8b8b99", "pieTitleTextSize": "18px", "pieLegendTextColor": "#8b8b99", "pieLegendTextSize": "15px"}}}%%
 pie showData
-    title 187 findings across 19 private audits
+    title 199 findings across 20 private audits
     "Critical" : 9
-    "High" : 31
-    "Medium" : 57
-    "Low" : 47
-    "Informational" : 43
+    "High" : 32
+    "Medium" : 61
+    "Low" : 48
+    "Informational" : 49
 ```
 
 ## How we work
