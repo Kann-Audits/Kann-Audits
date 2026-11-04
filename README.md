@@ -22,9 +22,9 @@
 
 <table>
   <tr>
-    <td align="center" width="190"><h2>62</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
-    <td align="center" width="190"><h2>210</h2><sub>FINDINGS REPORTED</sub></td>
-    <td align="center" width="190"><h2>361</h2><sub>VULNERABILITIES FOUND</sub></td>
+    <td align="center" width="190"><h2>63</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
+    <td align="center" width="190"><h2>215</h2><sub>FINDINGS REPORTED</sub></td>
+    <td align="center" width="190"><h2>366</h2><sub>VULNERABILITIES FOUND</sub></td>
   </tr>
 </table>
 
@@ -39,11 +39,12 @@
 <img src="https://img.shields.io/badge/L-2563eb?style=flat-square" alt="L"> Low &nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/I-667085?style=flat-square" alt="I"> Informational
 
-### 2026 &nbsp;·&nbsp; 11 reports
+### 2026 &nbsp;·&nbsp; 12 reports
 
 | Protocol | Type | Findings | Date | Report |
 |:--|:--|:--|:--|:--|
 | **Gloam** | Private Payments | <img src="https://img.shields.io/badge/L_3-2563eb?style=flat-square" alt="3 Low"> <img src="https://img.shields.io/badge/I_8-667085?style=flat-square" alt="8 Informational"> | October 2026 | <a href="reports/pdf-format/Gloam-security-review-2026-11-01.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Gloam-security-review-2026-11-01.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
+| **Delta** | Liquidity Management | <img src="https://img.shields.io/badge/L_4-2563eb?style=flat-square" alt="4 Low"> <img src="https://img.shields.io/badge/I_1-667085?style=flat-square" alt="1 Informational"> | October 2026 | <a href="reports/pdf-format/Delta-BNB-security-review-2026-10-30.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Delta-BNB-security-review-2026-10-30.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **IZKONEN** | Tokenomics | <img src="https://img.shields.io/badge/L_1-2563eb?style=flat-square" alt="1 Low"> <img src="https://img.shields.io/badge/I_5-667085?style=flat-square" alt="5 Informational"> | August 2026 | <a href="reports/pdf-format/IZKONEN-security-review-2026-08-18.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/IZKONEN-security-review-2026-08-18.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **N4A** | Bug Bounty Program | <img src="https://img.shields.io/badge/H_1-d92d20?style=flat-square" alt="1 High"> <img src="https://img.shields.io/badge/M_3-b54708?style=flat-square" alt="3 Medium"> <img src="https://img.shields.io/badge/L_3-2563eb?style=flat-square" alt="3 Low"> <img src="https://img.shields.io/badge/I_3-667085?style=flat-square" alt="3 Informational"> | July 2026 | <a href="reports/pdf-format/N4A-security-review-2026-08-18.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/N4A-security-review-2026-08-18.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Fluton** | Privacy Lending | <img src="https://img.shields.io/badge/C_4-a3123a?style=flat-square" alt="4 Critical"> <img src="https://img.shields.io/badge/H_8-d92d20?style=flat-square" alt="8 High"> <img src="https://img.shields.io/badge/M_5-b54708?style=flat-square" alt="5 Medium"> <img src="https://img.shields.io/badge/L_3-2563eb?style=flat-square" alt="3 Low"> <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | June 2026 | <a href="reports/pdf-format/Fluton-security-review-2026-08-20.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Fluton-security-review-2026-08-20.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
@@ -76,19 +77,19 @@
 
 | <img src="https://img.shields.io/badge/Critical-a3123a?style=flat-square" alt="Critical"> | <img src="https://img.shields.io/badge/High-d92d20?style=flat-square" alt="High"> | <img src="https://img.shields.io/badge/Medium-b54708?style=flat-square" alt="Medium"> | <img src="https://img.shields.io/badge/Low-2563eb?style=flat-square" alt="Low"> | <img src="https://img.shields.io/badge/Informational-667085?style=flat-square" alt="Informational"> |
 |:-:|:-:|:-:|:-:|:-:|
-| **9** | **32** | **61** | **51** | **57** |
+| **9** | **32** | **61** | **55** | **58** |
 
 </div>
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"pie1": "#a3123a", "pie2": "#d92d20", "pie3": "#b54708", "pie4": "#2563eb", "pie5": "#667085", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "15px", "pieTitleTextColor": "#8b8b99", "pieTitleTextSize": "18px", "pieLegendTextColor": "#8b8b99", "pieLegendTextSize": "15px"}}}%%
 pie showData
-    title 210 findings across 21 private audits
+    title 215 findings across 22 private audits
     "Critical" : 9
     "High" : 32
     "Medium" : 61
-    "Low" : 51
-    "Informational" : 57
+    "Low" : 55
+    "Informational" : 58
 ```
 
 ## How we work
