@@ -88,7 +88,7 @@
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"pie1": "#a3123a", "pie2": "#d92d20", "pie3": "#b54708", "pie4": "#2563eb", "pie5": "#667085", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "15px", "pieTitleTextColor": "#8b8b99", "pieTitleTextSize": "18px", "pieLegendTextColor": "#8b8b99", "pieLegendTextSize": "15px"}}}%%
 pie showData
-    title 253 findings across 26 private audits
+    title 253 findings across 26 published reports
     "Critical" : 9
     "High" : 34
     "Medium" : 65
