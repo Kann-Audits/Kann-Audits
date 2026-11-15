@@ -23,7 +23,7 @@
 <table>
   <tr>
     <td align="center" width="190"><h2>66</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
-    <td align="center" width="190"><h2>253</h2><sub>FINDINGS REPORTED</sub></td>
+    <td align="center" width="190"><h2>275</h2><sub>FINDINGS REPORTED</sub></td>
     <td align="center" width="190"><h2>398</h2><sub>VULNERABILITIES FOUND</sub></td>
   </tr>
 </table>
@@ -39,11 +39,13 @@
 <img src="https://img.shields.io/badge/L-2563eb?style=flat-square" alt="L"> Low &nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/I-667085?style=flat-square" alt="I"> Informational
 
-### 2026 &nbsp;·&nbsp; 16 reports
+### 2026 &nbsp;·&nbsp; 18 reports
 
 | Protocol | Type | Findings | Date | Report |
 |:--|:--|:--|:--|:--|
+| **Fluton** | Privacy Pool (Follow-up) | <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | November 2026 | <a href="reports/pdf-format/Fluton-security-review-2026-11-14.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Fluton-security-review-2026-11-14.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Raeto** | Yield Vaults (Follow-up) | <img src="https://img.shields.io/badge/L_4-2563eb?style=flat-square" alt="4 Low"> <img src="https://img.shields.io/badge/I_4-667085?style=flat-square" alt="4 Informational"> | November 2026 | <a href="reports/pdf-format/Raeto-security-review-2026-11-11.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Raeto-security-review-2026-11-11.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
+| **Octarine** | RWA Settlement | <img src="https://img.shields.io/badge/M_1-b54708?style=flat-square" alt="1 Medium"> <img src="https://img.shields.io/badge/L_5-2563eb?style=flat-square" alt="5 Low"> <img src="https://img.shields.io/badge/I_14-667085?style=flat-square" alt="14 Informational"> | November 2026 | <a href="reports/pdf-format/Octarine-security-review-2026-11-09.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Octarine-security-review-2026-11-09.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Raeto** | Yield Vaults | <img src="https://img.shields.io/badge/H_1-d92d20?style=flat-square" alt="1 High"> <img src="https://img.shields.io/badge/M_2-b54708?style=flat-square" alt="2 Medium"> <img src="https://img.shields.io/badge/L_4-2563eb?style=flat-square" alt="4 Low"> <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | November 2026 | <a href="reports/pdf-format/Raeto-security-review-2026-11-08.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Raeto-security-review-2026-11-08.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Fluton** | Privacy Lending | <img src="https://img.shields.io/badge/H_1-d92d20?style=flat-square" alt="1 High"> <img src="https://img.shields.io/badge/M_1-b54708?style=flat-square" alt="1 Medium"> <img src="https://img.shields.io/badge/L_7-2563eb?style=flat-square" alt="7 Low"> <img src="https://img.shields.io/badge/I_6-667085?style=flat-square" alt="6 Informational"> | November 2026 | <a href="reports/pdf-format/Fluton-security-review-2026-11-07.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Fluton-security-review-2026-11-07.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Gloam** | Private Payments | <img src="https://img.shields.io/badge/L_3-2563eb?style=flat-square" alt="3 Low"> <img src="https://img.shields.io/badge/I_8-667085?style=flat-square" alt="8 Informational"> | October 2026 | <a href="reports/pdf-format/Gloam-security-review-2026-11-01.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Gloam-security-review-2026-11-01.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
