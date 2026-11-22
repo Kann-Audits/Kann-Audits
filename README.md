@@ -22,9 +22,9 @@
 
 <table>
   <tr>
-    <td align="center" width="190"><h2>66</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
+    <td align="center" width="190"><h2>71</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
     <td align="center" width="190"><h2>297</h2><sub>FINDINGS REPORTED</sub></td>
-    <td align="center" width="190"><h2>398</h2><sub>VULNERABILITIES FOUND</sub></td>
+    <td align="center" width="190"><h2>448</h2><sub>VULNERABILITIES FOUND</sub></td>
   </tr>
 </table>
 
