@@ -23,7 +23,7 @@
 <table>
   <tr>
     <td align="center" width="190"><h2>66</h2><sub>PRIVATE AUDIT REPORTS</sub></td>
-    <td align="center" width="190"><h2>294</h2><sub>FINDINGS REPORTED</sub></td>
+    <td align="center" width="190"><h2>297</h2><sub>FINDINGS REPORTED</sub></td>
     <td align="center" width="190"><h2>398</h2><sub>VULNERABILITIES FOUND</sub></td>
   </tr>
 </table>
@@ -39,10 +39,11 @@
 <img src="https://img.shields.io/badge/L-2563eb?style=flat-square" alt="L"> Low &nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/I-667085?style=flat-square" alt="I"> Informational
 
-### 2026 &nbsp;·&nbsp; 19 reports
+### 2026 &nbsp;·&nbsp; 20 reports
 
 | Protocol | Type | Findings | Date | Report |
 |:--|:--|:--|:--|:--|
+| **Raeto** | Staking | <img src="https://img.shields.io/badge/I_3-667085?style=flat-square" alt="3 Informational"> | November 2026 | <a href="reports/pdf-format/Raeto-Staking-security-review-2026-11-21.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Raeto-Staking-security-review-2026-11-21.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Oak Agent** | Buyback & Burn | <img src="https://img.shields.io/badge/M_2-b54708?style=flat-square" alt="2 Medium"> <img src="https://img.shields.io/badge/L_6-2563eb?style=flat-square" alt="6 Low"> <img src="https://img.shields.io/badge/I_11-667085?style=flat-square" alt="11 Informational"> | November 2026 | <a href="reports/pdf-format/Oak-Agent-security-review-2026-11-17.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Oak-Agent-security-review-2026-11-17.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Fluton** | Privacy Pool (Follow-up) | <img src="https://img.shields.io/badge/I_2-667085?style=flat-square" alt="2 Informational"> | November 2026 | <a href="reports/pdf-format/Fluton-security-review-2026-11-14.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Fluton-security-review-2026-11-14.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
 | **Raeto** | Yield Vaults (Follow-up) | <img src="https://img.shields.io/badge/L_4-2563eb?style=flat-square" alt="4 Low"> <img src="https://img.shields.io/badge/I_4-667085?style=flat-square" alt="4 Informational"> | November 2026 | <a href="reports/pdf-format/Raeto-security-review-2026-11-11.pdf"><img src="https://img.shields.io/badge/PDF-7047e8?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF report"></a> <a href="reports/md-format/Raeto-security-review-2026-11-11.md"><img src="https://img.shields.io/badge/MD-3a3a46?style=flat-square&logo=markdown&logoColor=white" alt="Markdown report"></a> |
@@ -84,19 +85,19 @@
 
 | <img src="https://img.shields.io/badge/Critical-a3123a?style=flat-square" alt="Critical"> | <img src="https://img.shields.io/badge/High-d92d20?style=flat-square" alt="High"> | <img src="https://img.shields.io/badge/Medium-b54708?style=flat-square" alt="Medium"> | <img src="https://img.shields.io/badge/Low-2563eb?style=flat-square" alt="Low"> | <img src="https://img.shields.io/badge/Informational-667085?style=flat-square" alt="Informational"> |
 |:-:|:-:|:-:|:-:|:-:|
-| **9** | **34** | **68** | **82** | **101** |
+| **9** | **34** | **68** | **82** | **104** |
 
 </div>
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"pie1": "#a3123a", "pie2": "#d92d20", "pie3": "#b54708", "pie4": "#2563eb", "pie5": "#667085", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "15px", "pieTitleTextColor": "#8b8b99", "pieTitleTextSize": "18px", "pieLegendTextColor": "#8b8b99", "pieLegendTextSize": "15px"}}}%%
 pie showData
-    title 294 findings across 29 published reports
+    title 297 findings across 30 published reports
     "Critical" : 9
     "High" : 34
     "Medium" : 68
     "Low" : 82
-    "Informational" : 101
+    "Informational" : 104
 ```
 
 ## How we work
